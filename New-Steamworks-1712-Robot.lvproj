@@ -135,7 +135,17 @@ AddOutputFilter chunkFilter
 			<Item Name="GetPDPCurrents.vi" Type="VI" URL="../GetPDPCurrents.vi"/>
 		</Item>
 		<Item Name="Calculations" Type="Folder">
+			<Item Name="DistanceFormula.vi" Type="VI" URL="../DistanceFormula.vi"/>
 			<Item Name="RampFunction.vi" Type="VI" URL="../RampFunction.vi"/>
+			<Item Name="SmallestAngle.vi" Type="VI" URL="../SmallestAngle.vi"/>
+		</Item>
+		<Item Name="Vision Processing" Type="Folder">
+			<Item Name="Sorted Particle Report 2016.vi" Type="VI" URL="../Sorted Particle Report 2016.vi"/>
+			<Item Name="Rectangle Comparison.vi" Type="VI" URL="../Rectangle Comparison.vi"/>
+			<Item Name="Cull and Group.vi" Type="VI" URL="../Cull and Group.vi"/>
+			<Item Name="FindBlobs.vi" Type="VI" URL="../FindBlobs.vi"/>
+			<Item Name="AnalyzeBlobs.vi" Type="VI" URL="../AnalyzeBlobs.vi"/>
+			<Item Name="RememberTargetLocation.vi" Type="VI" URL="../RememberTargetLocation.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -621,6 +631,12 @@ AddOutputFilter chunkFilter
 				<Item Name="NetComm_CAN_Receive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_Receive.vi"/>
 				<Item Name="WPI_CAN_PDPReceive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPReceive.vi"/>
 				<Item Name="WPI_Power Get PDP Currents.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PDP Currents.vi"/>
+				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
+				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
+				<Item Name="Imaq GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq GetImageInfo"/>
+				<Item Name="Imaq Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq Dispose"/>
+				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
+				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
