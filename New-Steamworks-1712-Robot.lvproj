@@ -154,6 +154,16 @@ AddOutputFilter chunkFilter
 			<Item Name="TON.vi" Type="VI" URL="../TON.vi"/>
 			<Item Name="AccumulatedAngle.vi" Type="VI" URL="../AccumulatedAngle.vi"/>
 		</Item>
+		<Item Name="Auto" Type="Folder">
+			<Item Name="1Gear.vi" Type="VI" URL="../1Gear.vi"/>
+			<Item Name="2Gear.vi" Type="VI" URL="../2Gear.vi"/>
+			<Item Name="NeutralZone.vi" Type="VI" URL="../NeutralZone.vi"/>
+			<Item Name="ForwardForInch.vi" Type="VI" URL="../ForwardForInch.vi"/>
+			<Item Name="TurnToDegrees.vi" Type="VI" URL="../TurnToDegrees.vi"/>
+			<Item Name="TurnForDegrees.vi" Type="VI" URL="../TurnForDegrees.vi"/>
+			<Item Name="FindAndAim.vi" Type="VI" URL="../FindAndAim.vi"/>
+			<Item Name="DriveToTarget.vi" Type="VI" URL="../DriveToTarget.vi"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="TeleStates.ctl" Type="VI" URL="../TeleStates.ctl"/>
 		<Item Name="TeleopStateMachine.vi" Type="VI" URL="../TeleopStateMachine.vi"/>
