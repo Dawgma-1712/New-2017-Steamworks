@@ -159,6 +159,7 @@ AddOutputFilter chunkFilter
 			<Item Name="2Gear.vi" Type="VI" URL="../2Gear.vi"/>
 			<Item Name="NeutralZone.vi" Type="VI" URL="../NeutralZone.vi"/>
 			<Item Name="ForwardForInch.vi" Type="VI" URL="../ForwardForInch.vi"/>
+			<Item Name="DriveForTime.vi" Type="VI" URL="../DriveForTime.vi"/>
 			<Item Name="TurnToDegrees.vi" Type="VI" URL="../TurnToDegrees.vi"/>
 			<Item Name="TurnForDegrees.vi" Type="VI" URL="../TurnForDegrees.vi"/>
 			<Item Name="FindAndAim.vi" Type="VI" URL="../FindAndAim.vi"/>
@@ -176,6 +177,8 @@ AddOutputFilter chunkFilter
 		<Item Name="SetPincherState.vi" Type="VI" URL="../SetPincherState.vi"/>
 		<Item Name="SetIntakeSpeed.vi" Type="VI" URL="../SetIntakeSpeed.vi"/>
 		<Item Name="SetClimberSpeed.vi" Type="VI" URL="../SetClimberSpeed.vi"/>
+		<Item Name="DriveStraight.vi" Type="VI" URL="../DriveStraight.vi"/>
+		<Item Name="TurnForTime.vi" Type="VI" URL="../TurnForTime.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
