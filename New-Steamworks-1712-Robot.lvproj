@@ -159,9 +159,10 @@ AddOutputFilter chunkFilter
 			<Item Name="2Gear.vi" Type="VI" URL="../2Gear.vi"/>
 			<Item Name="NeutralZone.vi" Type="VI" URL="../NeutralZone.vi"/>
 			<Item Name="ForwardForInch.vi" Type="VI" URL="../ForwardForInch.vi"/>
-			<Item Name="DriveForTime.vi" Type="VI" URL="../DriveForTime.vi"/>
+			<Item Name="ForwardForTime.vi" Type="VI" URL="../ForwardForTime.vi"/>
 			<Item Name="TurnToDegrees.vi" Type="VI" URL="../TurnToDegrees.vi"/>
 			<Item Name="TurnForDegrees.vi" Type="VI" URL="../TurnForDegrees.vi"/>
+			<Item Name="TurnForTime.vi" Type="VI" URL="../TurnForTime.vi"/>
 			<Item Name="FindAndAim.vi" Type="VI" URL="../FindAndAim.vi"/>
 			<Item Name="DriveToTarget.vi" Type="VI" URL="../DriveToTarget.vi"/>
 		</Item>
@@ -178,7 +179,6 @@ AddOutputFilter chunkFilter
 		<Item Name="SetIntakeSpeed.vi" Type="VI" URL="../SetIntakeSpeed.vi"/>
 		<Item Name="SetClimberSpeed.vi" Type="VI" URL="../SetClimberSpeed.vi"/>
 		<Item Name="DriveStraight.vi" Type="VI" URL="../DriveStraight.vi"/>
-		<Item Name="TurnForTime.vi" Type="VI" URL="../TurnForTime.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -814,11 +814,12 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/competition/Documents/LabVIEW Data/New-Steamworks-1712-Robot/Builds</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/competition/Documents/LabVIEW Data/NI_AB_PROJECTNAME/Builds</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
