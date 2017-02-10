@@ -179,6 +179,7 @@ AddOutputFilter chunkFilter
 		<Item Name="SetIntakeSpeed.vi" Type="VI" URL="../SetIntakeSpeed.vi"/>
 		<Item Name="SetClimberSpeed.vi" Type="VI" URL="../SetClimberSpeed.vi"/>
 		<Item Name="DriveStraight.vi" Type="VI" URL="../DriveStraight.vi"/>
+		<Item Name="testingPID.vi" Type="VI" URL="../testingPID.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
