@@ -162,6 +162,7 @@ AddOutputFilter chunkFilter
 			<Item Name="NeutralZone.vi" Type="VI" URL="../NeutralZone.vi"/>
 			<Item Name="ForwardForInch.vi" Type="VI" URL="../ForwardForInch.vi"/>
 			<Item Name="ForwardForTime.vi" Type="VI" URL="../ForwardForTime.vi"/>
+			<Item Name="DriveAndWiggle.vi" Type="VI" URL="../DriveAndWiggle.vi"/>
 			<Item Name="TurnToDegrees.vi" Type="VI" URL="../TurnToDegrees.vi"/>
 			<Item Name="TurnForDegrees.vi" Type="VI" URL="../TurnForDegrees.vi"/>
 			<Item Name="TurnForTime.vi" Type="VI" URL="../TurnForTime.vi"/>
@@ -183,6 +184,7 @@ AddOutputFilter chunkFilter
 		<Item Name="DriveStraight.vi" Type="VI" URL="../DriveStraight.vi"/>
 		<Item Name="testingPID.vi" Type="VI" URL="../testingPID.vi"/>
 		<Item Name="WriteCustomError.vi" Type="VI" URL="../WriteCustomError.vi"/>
+		<Item Name="ConfigFiles.vi" Type="VI" URL="../ConfigFiles.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -786,6 +788,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SolenoidRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidRefNum Registry Get.vi"/>
 				<Item Name="WPI_Power Get PDP Voltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PDP Voltage.vi"/>
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
+				<Item Name="WPI_CAN_PCMReceive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMReceive.vi"/>
+				<Item Name="WPI_Power Get PCM Compressor Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PCM Compressor Current.vi"/>
+				<Item Name="WPI_Power Get PCM Voltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PCM Voltage.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
