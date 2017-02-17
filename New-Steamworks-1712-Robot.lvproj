@@ -152,7 +152,7 @@ AddOutputFilter chunkFilter
 			<Item Name="LinearInterpolate.vi" Type="VI" URL="../LinearInterpolate.vi"/>
 			<Item Name="FancyPID.vi" Type="VI" URL="../FancyPID.vi"/>
 			<Item Name="Timeout.vi" Type="VI" URL="../Timeout.vi"/>
-			<Item Name="TON.vi" Type="VI" URL="../TON.vi"/>
+			<Item Name="TimerOnDelay.vi" Type="VI" URL="../TimerOnDelay.vi"/>
 			<Item Name="AccumulatedAngle.vi" Type="VI" URL="../AccumulatedAngle.vi"/>
 		</Item>
 		<Item Name="Auto" Type="Folder">
