@@ -147,14 +147,13 @@ AddOutputFilter chunkFilter
 		<Item Name="Calculations" Type="Folder">
 			<Item Name="DistanceFormula.vi" Type="VI" URL="../DistanceFormula.vi"/>
 			<Item Name="RampFunction.vi" Type="VI" URL="../RampFunction.vi"/>
+			<Item Name="RampWhenSpeedingUp.vi" Type="VI" URL="../RampWhenSpeedingUp.vi"/>
 			<Item Name="SmallestAngle.vi" Type="VI" URL="../SmallestAngle.vi"/>
 			<Item Name="LinearInterpolate.vi" Type="VI" URL="../LinearInterpolate.vi"/>
 			<Item Name="FancyPID.vi" Type="VI" URL="../FancyPID.vi"/>
 			<Item Name="Timeout.vi" Type="VI" URL="../Timeout.vi"/>
 			<Item Name="TON.vi" Type="VI" URL="../TON.vi"/>
 			<Item Name="AccumulatedAngle.vi" Type="VI" URL="../AccumulatedAngle.vi"/>
-			<Item Name="ModeIsEnabled.vi" Type="VI" URL="../ModeIsEnabled.vi"/>
-			<Item Name="IsSpeedingUp.vi" Type="VI" URL="../IsSpeedingUp.vi"/>
 		</Item>
 		<Item Name="Auto" Type="Folder">
 			<Item Name="1Gear.vi" Type="VI" URL="../1Gear.vi"/>
@@ -172,10 +171,10 @@ AddOutputFilter chunkFilter
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="TeleStates.ctl" Type="VI" URL="../TeleStates.ctl"/>
 		<Item Name="TeleopStateMachine.vi" Type="VI" URL="../TeleopStateMachine.vi"/>
+		<Item Name="MovePincher.vi" Type="VI" URL="../MovePincher.vi"/>
 		<Item Name="VisionAim.vi" Type="VI" URL="../VisionAim.vi"/>
 		<Item Name="MoveIntake.vi" Type="VI" URL="../MoveIntake.vi"/>
 		<Item Name="MoveArm.vi" Type="VI" URL="../MoveArm.vi"/>
-		<Item Name="MovePincher.vi" Type="VI" URL="../MovePincher.vi"/>
 		<Item Name="MoveClimber.vi" Type="VI" URL="../MoveClimber.vi"/>
 		<Item Name="SetArmState.vi" Type="VI" URL="../SetArmState.vi"/>
 		<Item Name="SetPincherState.vi" Type="VI" URL="../SetPincherState.vi"/>
@@ -831,7 +830,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
