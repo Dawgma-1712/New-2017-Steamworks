@@ -185,6 +185,7 @@ AddOutputFilter chunkFilter
 		<Item Name="WriteCustomError.vi" Type="VI" URL="../WriteCustomError.vi"/>
 		<Item Name="ConfigFiles.vi" Type="VI" URL="../ConfigFiles.vi"/>
 		<Item Name="ParseString.vi" Type="VI" URL="../ParseString.vi"/>
+		<Item Name="MockCameraToPC.vi" Type="VI" URL="../MockCameraToPC.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
