@@ -168,10 +168,10 @@ AddOutputFilter chunkFilter
 			<Item Name="FindAndAim.vi" Type="VI" URL="../FindAndAim.vi"/>
 			<Item Name="DriveToTarget.vi" Type="VI" URL="../DriveToTarget.vi"/>
 		</Item>
-		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="TeleStates.ctl" Type="VI" URL="../TeleStates.ctl"/>
 		<Item Name="TeleopStateMachine.vi" Type="VI" URL="../TeleopStateMachine.vi"/>
+		<Item Name="TeleStates.ctl" Type="VI" URL="../TeleStates.ctl"/>
 		<Item Name="MovePincher.vi" Type="VI" URL="../MovePincher.vi"/>
+		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="VisionAim.vi" Type="VI" URL="../VisionAim.vi"/>
 		<Item Name="MoveIntake.vi" Type="VI" URL="../MoveIntake.vi"/>
 		<Item Name="MoveArm.vi" Type="VI" URL="../MoveArm.vi"/>
