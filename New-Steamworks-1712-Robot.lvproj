@@ -143,6 +143,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FindBlobs.vi" Type="VI" URL="../FindBlobs.vi"/>
 			<Item Name="AnalyzeBlobs.vi" Type="VI" URL="../AnalyzeBlobs.vi"/>
 			<Item Name="RememberTargetLocation.vi" Type="VI" URL="../RememberTargetLocation.vi"/>
+			<Item Name="FixPegInWay.vi" Type="VI" URL="../FixPegInWay.vi"/>
 		</Item>
 		<Item Name="Calculations" Type="Folder">
 			<Item Name="DistanceFormula.vi" Type="VI" URL="../DistanceFormula.vi"/>
@@ -153,6 +154,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FancyPID.vi" Type="VI" URL="../FancyPID.vi"/>
 			<Item Name="Timeout.vi" Type="VI" URL="../Timeout.vi"/>
 			<Item Name="TimerOnDelay.vi" Type="VI" URL="../TimerOnDelay.vi"/>
+			<Item Name="Latch.vi" Type="VI" URL="../Latch.vi"/>
 			<Item Name="AccumulatedAngle.vi" Type="VI" URL="../AccumulatedAngle.vi"/>
 		</Item>
 		<Item Name="Auto" Type="Folder">
@@ -161,6 +163,7 @@ AddOutputFilter chunkFilter
 			<Item Name="NeutralZone.vi" Type="VI" URL="../NeutralZone.vi"/>
 			<Item Name="ForwardForInch.vi" Type="VI" URL="../ForwardForInch.vi"/>
 			<Item Name="ForwardForTime.vi" Type="VI" URL="../ForwardForTime.vi"/>
+			<Item Name="DriveStraight.vi" Type="VI" URL="../DriveStraight.vi"/>
 			<Item Name="DriveAndWiggle.vi" Type="VI" URL="../DriveAndWiggle.vi"/>
 			<Item Name="TurnToDegrees.vi" Type="VI" URL="../TurnToDegrees.vi"/>
 			<Item Name="TurnForDegrees.vi" Type="VI" URL="../TurnForDegrees.vi"/>
@@ -180,7 +183,6 @@ AddOutputFilter chunkFilter
 		<Item Name="SetPincherState.vi" Type="VI" URL="../SetPincherState.vi"/>
 		<Item Name="SetIntakeSpeed.vi" Type="VI" URL="../SetIntakeSpeed.vi"/>
 		<Item Name="SetClimberSpeed.vi" Type="VI" URL="../SetClimberSpeed.vi"/>
-		<Item Name="DriveStraight.vi" Type="VI" URL="../DriveStraight.vi"/>
 		<Item Name="testingPID.vi" Type="VI" URL="../testingPID.vi"/>
 		<Item Name="WriteCustomError.vi" Type="VI" URL="../WriteCustomError.vi"/>
 		<Item Name="ConfigFiles.vi" Type="VI" URL="../ConfigFiles.vi"/>
@@ -788,7 +790,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SolenoidSet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidSet.vi"/>
 				<Item Name="WPI_SolenoidRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidRefNum Registry Get.vi"/>
 				<Item Name="WPI_Power Get PDP Voltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PDP Voltage.vi"/>
-				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
 				<Item Name="WPI_CAN_PCMReceive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMReceive.vi"/>
 				<Item Name="WPI_Power Get PCM Compressor Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PCM Compressor Current.vi"/>
 				<Item Name="WPI_Power Get PCM Voltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PCM Voltage.vi"/>
@@ -796,6 +797,8 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CompressorRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Set.vi"/>
 				<Item Name="WPI_CompressorRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Get.vi"/>
 				<Item Name="WPI_CompressorStop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorStop.vi"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="Zero Yaw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Set/Zero Yaw.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
