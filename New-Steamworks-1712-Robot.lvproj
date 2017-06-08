@@ -190,6 +190,7 @@ AddOutputFilter chunkFilter
 		<Item Name="MockCameraToPC.vi" Type="VI" URL="../MockCameraToPC.vi"/>
 		<Item Name="MoveFlaps.vi" Type="VI" URL="../MoveFlaps.vi"/>
 		<Item Name="SetFlapsState.vi" Type="VI" URL="../SetFlapsState.vi"/>
+		<Item Name="OnseShotPulse.vi" Type="VI" URL="../OnseShotPulse.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
