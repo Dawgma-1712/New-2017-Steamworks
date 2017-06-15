@@ -191,6 +191,7 @@ AddOutputFilter chunkFilter
 		<Item Name="MoveFlaps.vi" Type="VI" URL="../MoveFlaps.vi"/>
 		<Item Name="SetFlapsState.vi" Type="VI" URL="../SetFlapsState.vi"/>
 		<Item Name="OnseShotPulse.vi" Type="VI" URL="../OnseShotPulse.vi"/>
+		<Item Name="ArcadeDriveTeleop.vi" Type="VI" URL="../ArcadeDriveTeleop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -823,7 +824,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ArcadeDriveTeleop.vi" Type="VI" URL="../ArcadeDriveTeleop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
