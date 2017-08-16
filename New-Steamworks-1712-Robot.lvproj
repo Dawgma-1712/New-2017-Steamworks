@@ -171,6 +171,20 @@ AddOutputFilter chunkFilter
 			<Item Name="FindAndAim.vi" Type="VI" URL="../FindAndAim.vi"/>
 			<Item Name="DriveToTarget.vi" Type="VI" URL="../DriveToTarget.vi"/>
 		</Item>
+		<Item Name="PurePursuit" Type="Folder">
+			<Item Name="InjectPoints.vi" Type="VI" URL="../PurePursuit/InjectPoints.vi"/>
+			<Item Name="LookAheadPoint.vi" Type="VI" URL="../PurePursuit/LookAheadPoint.vi"/>
+			<Item Name="NEWLinearInterpolate.vi" Type="VI" URL="../PurePursuit/NEWLinearInterpolate.vi"/>
+			<Item Name="PurePursuitTester.vi" Type="VI" URL="../PurePursuit/PurePursuitTester.vi"/>
+			<Item Name="VisualizePurePursuit.vi" Type="VI" URL="../PurePursuit/VisualizePurePursuit.vi"/>
+			<Item Name="CalculateCurvature.vi" Type="VI" URL="../PurePursuit/CalculateCurvature.vi"/>
+			<Item Name="CalculatePowerPursuit.vi" Type="VI" URL="../PurePursuit/CalculatePowerPursuit.vi"/>
+			<Item Name="DrawCircle.vi" Type="VI" URL="../PurePursuit/DrawCircle.vi"/>
+			<Item Name="EncodersGyroToXY.vi" Type="VI" URL="../PurePursuit/EncodersGyroToXY.vi"/>
+			<Item Name="derivative.vi" Type="VI" URL="../derivative.vi"/>
+			<Item Name="EndOfPathHandler.vi" Type="VI" URL="../PurePursuit/EndOfPathHandler.vi"/>
+			<Item Name="RateLimiter.vi" Type="VI" URL="../RateLimiter.vi"/>
+		</Item>
 		<Item Name="TeleopStateMachine.vi" Type="VI" URL="../TeleopStateMachine.vi"/>
 		<Item Name="TeleStates.ctl" Type="VI" URL="../TeleStates.ctl"/>
 		<Item Name="MovePincher.vi" Type="VI" URL="../MovePincher.vi"/>
@@ -191,6 +205,8 @@ AddOutputFilter chunkFilter
 		<Item Name="MoveFlaps.vi" Type="VI" URL="../MoveFlaps.vi"/>
 		<Item Name="SetFlapsState.vi" Type="VI" URL="../SetFlapsState.vi"/>
 		<Item Name="OnseShotPulse.vi" Type="VI" URL="../OnseShotPulse.vi"/>
+		<Item Name="HandleDeadband.vi" Type="VI" URL="../HandleDeadband.vi"/>
+		<Item Name="CheesyDrive.vi" Type="VI" URL="../CheesyDrive.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
