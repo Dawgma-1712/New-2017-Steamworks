@@ -207,6 +207,12 @@ AddOutputFilter chunkFilter
 		<Item Name="OnseShotPulse.vi" Type="VI" URL="../OnseShotPulse.vi"/>
 		<Item Name="HandleDeadband.vi" Type="VI" URL="../HandleDeadband.vi"/>
 		<Item Name="CheesyDrive.vi" Type="VI" URL="../CheesyDrive.vi"/>
+		<Item Name="Configurations.vi" Type="VI" URL="../Settings&amp;Configurations/Configurations.vi"/>
+		<Item Name="ConfigurationsControlLoop.vi" Type="VI" URL="../Settings&amp;Configurations/ConfigurationsControlLoop.vi"/>
+		<Item Name="SendCalibrationsToDB.vi" Type="VI" URL="../Settings&amp;Configurations/SendCalibrationsToDB.vi"/>
+		<Item Name="ReadCalibrationsFromDB.vi" Type="VI" URL="../Settings&amp;Configurations/ReadCalibrationsFromDB.vi"/>
+		<Item Name="SaveCalibrationsToFile.vi" Type="VI" URL="../Settings&amp;Configurations/SaveCalibrationsToFile.vi"/>
+		<Item Name="ReadCalibrationsFromFile.vi" Type="VI" URL="../Settings&amp;Configurations/ReadCalibrationsFromFile.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
