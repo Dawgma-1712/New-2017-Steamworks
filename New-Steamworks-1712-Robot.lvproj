@@ -27,7 +27,13 @@
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
 		</Item>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="TestCheesyDrive.vi" Type="VI" URL="../TestCheesyDrive.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="NEWLinearInterpolate.vi" Type="VI" URL="../PurePursuit/NEWLinearInterpolate.vi"/>
+			<Item Name="RateLimiter.vi" Type="VI" URL="../RateLimiter.vi"/>
+			<Item Name="HandleDeadband.vi" Type="VI" URL="../HandleDeadband.vi"/>
+			<Item Name="CheesyDrive.vi" Type="VI" URL="../CheesyDrive.vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
