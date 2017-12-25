@@ -26,13 +26,36 @@
 			</Item>
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
 		</Item>
+		<Item Name="RobotSimulator.vi" Type="Folder" URL="../RobotSimulator.vi">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
 		<Item Name="TestCheesyDrive.vi" Type="VI" URL="../TestCheesyDrive.vi"/>
+		<Item Name="TestPurePursuit.vi" Type="VI" URL="../PurePursuit/TestPurePursuit.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+			</Item>
 			<Item Name="NEWLinearInterpolate.vi" Type="VI" URL="../PurePursuit/NEWLinearInterpolate.vi"/>
 			<Item Name="RateLimiter.vi" Type="VI" URL="../RateLimiter.vi"/>
 			<Item Name="HandleDeadband.vi" Type="VI" URL="../HandleDeadband.vi"/>
 			<Item Name="CheesyDrive.vi" Type="VI" URL="../CheesyDrive.vi"/>
+			<Item Name="derivative.vi" Type="VI" URL="../derivative.vi"/>
+			<Item Name="CalculatePowerPursuit.vi" Type="VI" URL="../PurePursuit/CalculatePowerPursuit.vi"/>
+			<Item Name="Timeout.vi" Type="VI" URL="../Timeout.vi"/>
+			<Item Name="TimerOnDelay.vi" Type="VI" URL="../TimerOnDelay.vi"/>
+			<Item Name="DistanceFormula.vi" Type="VI" URL="../DistanceFormula.vi"/>
+			<Item Name="EndOfPathHandler.vi" Type="VI" URL="../PurePursuit/EndOfPathHandler.vi"/>
+			<Item Name="DrawCircle.vi" Type="VI" URL="../PurePursuit/DrawCircle.vi"/>
+			<Item Name="VisualizePurePursuit.vi" Type="VI" URL="../PurePursuit/VisualizePurePursuit.vi"/>
+			<Item Name="CalculateCurvature.vi" Type="VI" URL="../PurePursuit/CalculateCurvature.vi"/>
+			<Item Name="LookAheadPoint.vi" Type="VI" URL="../PurePursuit/LookAheadPoint.vi"/>
+			<Item Name="EncodersGyroToXY.vi" Type="VI" URL="../PurePursuit/EncodersGyroToXY.vi"/>
+			<Item Name="PurePursuit.vi" Type="VI" URL="../PurePursuit/PurePursuit.vi"/>
+			<Item Name="InjectPoints.vi" Type="VI" URL="../PurePursuit/InjectPoints.vi"/>
+			<Item Name="Smoother.vi" Type="VI" URL="../PurePursuit/Smoother.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -189,7 +212,9 @@ AddOutputFilter chunkFilter
 			<Item Name="EncodersGyroToXY.vi" Type="VI" URL="../PurePursuit/EncodersGyroToXY.vi"/>
 			<Item Name="derivative.vi" Type="VI" URL="../derivative.vi"/>
 			<Item Name="EndOfPathHandler.vi" Type="VI" URL="../PurePursuit/EndOfPathHandler.vi"/>
+			<Item Name="Smoother.vi" Type="VI" URL="../PurePursuit/Smoother.vi"/>
 			<Item Name="RateLimiter.vi" Type="VI" URL="../RateLimiter.vi"/>
+			<Item Name="PurePursuit.vi" Type="VI" URL="../PurePursuit/PurePursuit.vi"/>
 		</Item>
 		<Item Name="Settings&amp;Configurations" Type="Folder" URL="../Settings&amp;Configurations">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -842,7 +867,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Smoother.vi" Type="VI" URL="../PurePursuit/Smoother.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
